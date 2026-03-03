@@ -1,0 +1,1 @@
+console.log("Gündondu Harita Website Aktif");
