@@ -198,17 +198,23 @@ Adres: Büyükcami Mah. Gürler Sokak No:17/5
 Keşan / Edirne
 </p>
 
-<form>
+<form action="https://formsubmit.co/e2rcsolutions@gmail.com" method="POST">
 
-<input type="text" placeholder="Ad Soyad" required>
+<input type="text" name="name" placeholder="Ad Soyad" required>
 
-<input type="email" placeholder="Email">
+<input type="email" name="email" placeholder="Email Adresi" required>
 
-<textarea placeholder="Mesajınız"></textarea>
+<textarea name="message" placeholder="Mesajınız" rows="5" required></textarea>
 
 <button type="submit">
 Gönder
 </button>
+
+<input type="hidden" name="_subject" value="Yeni Web Sitesi Mesajı">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_next" value="https://kesanharitamuhendisi.com/tesekkurler.html">
 
 </form>
 
