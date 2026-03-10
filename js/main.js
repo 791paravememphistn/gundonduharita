@@ -1,1 +1,1 @@
-console.log("Gündondu Harita Website Aktif");
+console.log("Gündöndü Harita Website Aktif");
